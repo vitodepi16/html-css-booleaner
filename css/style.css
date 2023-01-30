@@ -1,53 +1,60 @@
-.contenitore{
+.contenitore {
     width: 100%;
 
+    margin:100px;
 }
 
-.intestazione{
+.intestazione {
     background-color: hsl(196, 100%, 47%);
     background-size: contain;
     background-repeat: repeat;
     background-image: url("../img/pattern.png");
 }
 
-.table{
+.table {
     border-collapse: collapse;
     width: 100%;
     margin: 0px;
 }
+
 .prima-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
     width: 25%;
 }
+
 .seconda-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
     width: 25%;
 }
+
 .terza-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
     width: 50%;
 }
-th, td{
-    min-width:200px;
+
+th,
+td {
+    min-width: 200px;
 }
+
 tr:nth-child(odd) {
     background-color: #D6EEEE;
-  }
-  .primolink{
+}
+
+.primolink {
     background-image: url("../img/monitor.jpg");
-    width: 100%;
     height: 300px;
     background-repeat: no-repeat;
-  }
-  .secondolink{
+}
+
+.secondolink {
     background-image: url("../img/graph.jpg");
-    width: 100%;
     height: 300px;
     background-repeat: no-repeat;
-  }
+}
