@@ -14,19 +14,18 @@
 .prima-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
-    min-width:20px;
+    color: white;
 
 }
 .seconda-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
-    min-width:20px;
     color: white;
+    border-inline-color: 0px;
 }
 .terza-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
-    min-width:20px;
     color: white;
 }
 th, td{
