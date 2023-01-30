@@ -19,19 +19,19 @@
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
-    border: 0px black;
-    margin: 0%;
+    width: 25%;
 }
 .seconda-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
-    border-inline-color: 0px;
+    width: 25%;
 }
 .terza-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
+    width: 50%;
 }
 th, td{
     min-width:200px;
