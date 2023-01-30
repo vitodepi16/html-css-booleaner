@@ -15,9 +15,9 @@
 
 }
 .table {
-    border-collapse: collapse;
     width: 100%;
-    margin: 0px;
+    margin: auto;
+    
 }
 
 .prima-tab {
@@ -43,7 +43,7 @@
 
 th,
 td {
-    min-width: 200px;
+    min-width: 50%;
 }
 
 tr:nth-child(odd) {
