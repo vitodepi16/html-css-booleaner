@@ -1,7 +1,6 @@
 .contenitore{
     width: 100%;
    margin-left: 400px;
-  
    display: table-caption;
 }
 
@@ -12,11 +11,22 @@
     background-image: url("../img/pattern.png");
 }
 
-.table{background-color: hsl(218, 100%, 51%);
+.prima-tab {
+    background-color: hsl(218, 100%, 51%);
+    text-align: left;
+    min-width:20px;
+
+}
+.seconda-tab {
+    background-color: hsl(218, 100%, 51%);
     text-align: left;
     min-width:20px;
 }
-
+.terza-tab {
+    background-color: hsl(218, 100%, 51%);
+    text-align: left;
+    min-width:20px;
+}
 th, td{
     border-spacing: 20px;
     min-width:200px;
