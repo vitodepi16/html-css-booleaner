@@ -3,7 +3,7 @@
 
 
 .intestazione{
-    background-color: #70a1f6;
+    background-color: hsl(196, 100%, 47%);
     background-size: contain;
     background-repeat: repeat;
     background-image: url("../img/pattern.png");
@@ -11,4 +11,18 @@
     
 }
 
+.thead{background-color: hsl(218, 100%, 51%);
+    text-align: left;
+    min-width:20px;
+    te
+}
+    
+    
 
+th, td{
+    border-spacing: 15px;
+    min-width:200px;
+}
+tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
