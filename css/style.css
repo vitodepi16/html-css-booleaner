@@ -1,7 +1,7 @@
 .contenitore {
-    width: 100%;
+    width: 50%;
     display: table;
-    margin:100px;
+    margin:auto;
 }
 
 .intestazione {
@@ -10,7 +10,10 @@
     background-repeat: repeat;
     background-image: url("../img/pattern.png");
 }
+.picture{
+    width: 40%;
 
+}
 .table {
     border-collapse: collapse;
     width: 100%;
