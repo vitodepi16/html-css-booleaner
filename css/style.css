@@ -1,7 +1,6 @@
 .contenitore{
     width: 100%;
-   margin-left: 400px;
-   display: table-caption;
+
 }
 
 .intestazione{
@@ -11,11 +10,17 @@
     background-image: url("../img/pattern.png");
 }
 
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+}
 .prima-tab {
     background-color: hsl(218, 100%, 51%);
     text-align: left;
     color: white;
-
+    border: 0px black;
+    margin: 0%;
 }
 .seconda-tab {
     background-color: hsl(218, 100%, 51%);
@@ -29,7 +34,6 @@
     color: white;
 }
 th, td{
-    border-spacing: 20px;
     min-width:200px;
 }
 tr:nth-child(odd) {
