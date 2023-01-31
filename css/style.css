@@ -6,12 +6,17 @@
 
 .intestazione {
     background-color: hsl(196, 100%, 47%);
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: 23%;
     background-image: url("../img/pattern.png");
+    height: 50px;
 }
 .picture{
     width: 40%;
+
+}
+#logo{
+    padding-top: 20px;
+    width: 130px;
 
 }
 .table {
